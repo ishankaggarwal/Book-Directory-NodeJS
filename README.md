@@ -10,6 +10,9 @@
 
 Basic application created using NodeJS and ExpressJs using the four most basic methods: GET, POST, PUT and DELETE.
 
-You’d use GET for getting all books or getting only one book by id. With the POST method, you can add a new book to the list. You’d need the PUT method for updating the existing book, and it’s evident that with the DELETE method, you will remove the book from the list.
+GET – fetches the book details from the directory. This can include all the books or specific books by ID. 
+POST – adds a new book to the directory of books. 
+PUT – updates any existing book in the directory.
+DELETE – delete any existing book from the directory. 
 
 For this kind of application, you don’t have to use the database, and for the first app, you can start with data collected as a JSON file.
